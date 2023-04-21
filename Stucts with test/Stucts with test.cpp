@@ -36,10 +36,10 @@ and provide instruments for it. Such as keep track of exist competitors,
 add their results, fix wrong data, and provide some statistics.)" << std::endl;
     while (true)
     {
-        std::cout << "main menue:\n"<<
-            "1 - add new data\n"<<
-            "2 - fix old data\n"<<
-            "3 - show statistics\n"<<
+        std::cout << "main menue:\n" <<
+            "1 - add new data\n" <<
+            "2 - fix old data\n" <<
+            "3 - show statistics\n" <<
             "0 - exit";
         std::cout << "enter number of action:";
         switch (Scan<char>()) {
