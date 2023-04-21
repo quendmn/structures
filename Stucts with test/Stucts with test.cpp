@@ -107,7 +107,7 @@ Contestant* CollectData(bool full) {
 }
 
 void FixData() {
-    // not complite by now
+    // not complete by now
     std::cout << "You have two possible way to add new contestant.\n";
     while (true) {
         std::cout << "menue:\n" <<
@@ -121,9 +121,9 @@ void FixData() {
             std::cout << "\nGoodbye!";
             return;
         case '1':
-           
+           //
         case '2':
-            
+            //
             break;
         default:
             std::cout << "\nWrong enter!";
